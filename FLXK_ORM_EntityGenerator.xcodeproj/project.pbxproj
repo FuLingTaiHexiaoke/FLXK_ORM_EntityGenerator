@@ -30,6 +30,7 @@
 		B9277B651ED59B69005631A3 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B581ED59B69005631A3 /* FMDatabaseQueue.m */; };
 		B9277B661ED59B69005631A3 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B5B1ED59B69005631A3 /* FMResultSet.m */; };
 		B969864E1ED814D800B104C6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B969864D1ED814D800B104C6 /* libsqlite3.0.tbd */; };
+		B9C7A3CC1EDE9E33007A207F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B9C7A3CB1EDE9E33007A207F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		B9277B5A1ED59B69005631A3 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		B9277B5B1ED59B69005631A3 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		B969864D1ED814D800B104C6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B9C7A3CB1EDE9E33007A207F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				B9277B051ED595CC005631A3 /* Assets.xcassets */,
 				B9277B071ED595CC005631A3 /* LaunchScreen.storyboard */,
 				B9277B0A1ED595CC005631A3 /* Info.plist */,
+				B9C7A3CB1EDE9E33007A207F /* README.md */,
 				B9277AF91ED595CC005631A3 /* Supporting Files */,
 			);
 			path = FLXK_ORM_EntityGenerator;
@@ -295,6 +298,7 @@
 				B9277B651ED59B69005631A3 /* FMDatabaseQueue.m in Sources */,
 				B9277B011ED595CC005631A3 /* ViewController.m in Sources */,
 				B9277B3E1ED596D4005631A3 /* EmotionItem.m in Sources */,
+				B9C7A3CC1EDE9E33007A207F /* README.md in Sources */,
 				B9277B3D1ED596D4005631A3 /* EmotionGroup.m in Sources */,
 				B9277B5E1ED59B69005631A3 /* TestEntity.m in Sources */,
 				B9277B611ED59B69005631A3 /* README.markdown in Sources */,
