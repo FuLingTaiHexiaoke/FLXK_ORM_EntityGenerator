@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9277AFB1ED595CC005631A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277AFA1ED595CC005631A3 /* main.m */; };
+		B9277AFE1ED595CC005631A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277AFD1ED595CC005631A3 /* AppDelegate.m */; };
+		B9277B011ED595CC005631A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B001ED595CC005631A3 /* ViewController.m */; };
+		B9277B041ED595CC005631A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9277B021ED595CC005631A3 /* Main.storyboard */; };
+		B9277B061ED595CC005631A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9277B051ED595CC005631A3 /* Assets.xcassets */; };
+		B9277B091ED595CC005631A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9277B071ED595CC005631A3 /* LaunchScreen.storyboard */; };
+		B9277B3D1ED596D4005631A3 /* EmotionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B361ED596D4005631A3 /* EmotionGroup.m */; };
+		B9277B3E1ED596D4005631A3 /* EmotionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B381ED596D4005631A3 /* EmotionItem.m */; };
+		B9277B3F1ED596D4005631A3 /* EmotionRecentItems.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B3A1ED596D4005631A3 /* EmotionRecentItems.m */; };
+		B9277B401ED596D4005631A3 /* FLXKEmotionDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B9277B3B1ED596D4005631A3 /* FLXKEmotionDB.sqlite */; };
+		B9277B411ED596D4005631A3 /* FLXKEmotionDB副本.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B9277B3C1ED596D4005631A3 /* FLXKEmotionDB副本.sqlite */; };
+		B9277B5C1ED59B69005631A3 /* EntityGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B461ED59B69005631A3 /* EntityGeneratorViewController.m */; };
+		B9277B5D1ED59B69005631A3 /* EntityGeneratorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9277B471ED59B69005631A3 /* EntityGeneratorViewController.xib */; };
+		B9277B5E1ED59B69005631A3 /* TestEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B491ED59B69005631A3 /* TestEntity.m */; };
+		B9277B5F1ED59B69005631A3 /* FLXKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B4B1ED59B69005631A3 /* FLXKDBHelper.m */; };
+		B9277B601ED59B69005631A3 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9277B4D1ED59B69005631A3 /* LICENSE.txt */; };
+		B9277B611ED59B69005631A3 /* README.markdown in Sources */ = {isa = PBXBuildFile; fileRef = B9277B4E1ED59B69005631A3 /* README.markdown */; };
+		B9277B621ED59B69005631A3 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B521ED59B69005631A3 /* FMDatabase.m */; };
+		B9277B631ED59B69005631A3 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B541ED59B69005631A3 /* FMDatabaseAdditions.m */; };
+		B9277B641ED59B69005631A3 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B561ED59B69005631A3 /* FMDatabasePool.m */; };
+		B9277B651ED59B69005631A3 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B581ED59B69005631A3 /* FMDatabaseQueue.m */; };
+		B9277B661ED59B69005631A3 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B9277B5B1ED59B69005631A3 /* FMResultSet.m */; };
+		B969864E1ED814D800B104C6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B969864D1ED814D800B104C6 /* libsqlite3.0.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9277AF61ED595CC005631A3 /* FLXK_ORM_EntityGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLXK_ORM_EntityGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9277AFA1ED595CC005631A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9277AFC1ED595CC005631A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9277AFD1ED595CC005631A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9277AFF1ED595CC005631A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9277B001ED595CC005631A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9277B031ED595CC005631A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9277B051ED595CC005631A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9277B081ED595CC005631A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9277B0A1ED595CC005631A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9277B351ED596D4005631A3 /* EmotionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionGroup.h; sourceTree = "<group>"; };
+		B9277B361ED596D4005631A3 /* EmotionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionGroup.m; sourceTree = "<group>"; };
+		B9277B371ED596D4005631A3 /* EmotionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionItem.h; sourceTree = "<group>"; };
+		B9277B381ED596D4005631A3 /* EmotionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionItem.m; sourceTree = "<group>"; };
+		B9277B391ED596D4005631A3 /* EmotionRecentItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmotionRecentItems.h; sourceTree = "<group>"; };
+		B9277B3A1ED596D4005631A3 /* EmotionRecentItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmotionRecentItems.m; sourceTree = "<group>"; };
+		B9277B3B1ED596D4005631A3 /* FLXKEmotionDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = FLXKEmotionDB.sqlite; sourceTree = "<group>"; };
+		B9277B3C1ED596D4005631A3 /* FLXKEmotionDB副本.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FLXKEmotionDB副本.sqlite"; sourceTree = "<group>"; };
+		B9277B441ED59B69005631A3 /* EntitiesBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntitiesBridge.h; sourceTree = "<group>"; };
+		B9277B451ED59B69005631A3 /* EntityGeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityGeneratorViewController.h; sourceTree = "<group>"; };
+		B9277B461ED59B69005631A3 /* EntityGeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityGeneratorViewController.m; sourceTree = "<group>"; };
+		B9277B471ED59B69005631A3 /* EntityGeneratorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EntityGeneratorViewController.xib; sourceTree = "<group>"; };
+		B9277B481ED59B69005631A3 /* TestEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestEntity.h; sourceTree = "<group>"; };
+		B9277B491ED59B69005631A3 /* TestEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestEntity.m; sourceTree = "<group>"; };
+		B9277B4A1ED59B69005631A3 /* FLXKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLXKDBHelper.h; sourceTree = "<group>"; };
+		B9277B4B1ED59B69005631A3 /* FLXKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLXKDBHelper.m; sourceTree = "<group>"; };
+		B9277B4D1ED59B69005631A3 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		B9277B4E1ED59B69005631A3 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		B9277B511ED59B69005631A3 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B9277B521ED59B69005631A3 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B9277B531ED59B69005631A3 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B9277B541ED59B69005631A3 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B9277B551ED59B69005631A3 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B9277B561ED59B69005631A3 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B9277B571ED59B69005631A3 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B9277B581ED59B69005631A3 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B9277B591ED59B69005631A3 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B9277B5A1ED59B69005631A3 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B9277B5B1ED59B69005631A3 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B969864D1ED814D800B104C6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9277AF31ED595CC005631A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B969864E1ED814D800B104C6 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9277AED1ED595CB005631A3 = {
+			isa = PBXGroup;
+			children = (
+				B9277AF81ED595CC005631A3 /* FLXK_ORM_EntityGenerator */,
+				B9277AF71ED595CC005631A3 /* Products */,
+				B969864C1ED814D800B104C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9277AF71ED595CC005631A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9277AF61ED595CC005631A3 /* FLXK_ORM_EntityGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9277AF81ED595CC005631A3 /* FLXK_ORM_EntityGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				B9277B421ED596F3005631A3 /* ToolKitty */,
+				B9277B341ED596D4005631A3 /* Entity */,
+				B9277AFC1ED595CC005631A3 /* AppDelegate.h */,
+				B9277AFD1ED595CC005631A3 /* AppDelegate.m */,
+				B9277AFF1ED595CC005631A3 /* ViewController.h */,
+				B9277B001ED595CC005631A3 /* ViewController.m */,
+				B9277B021ED595CC005631A3 /* Main.storyboard */,
+				B9277B051ED595CC005631A3 /* Assets.xcassets */,
+				B9277B071ED595CC005631A3 /* LaunchScreen.storyboard */,
+				B9277B0A1ED595CC005631A3 /* Info.plist */,
+				B9277AF91ED595CC005631A3 /* Supporting Files */,
+			);
+			path = FLXK_ORM_EntityGenerator;
+			sourceTree = "<group>";
+		};
+		B9277AF91ED595CC005631A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9277AFA1ED595CC005631A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9277B341ED596D4005631A3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B9277B351ED596D4005631A3 /* EmotionGroup.h */,
+				B9277B361ED596D4005631A3 /* EmotionGroup.m */,
+				B9277B371ED596D4005631A3 /* EmotionItem.h */,
+				B9277B381ED596D4005631A3 /* EmotionItem.m */,
+				B9277B391ED596D4005631A3 /* EmotionRecentItems.h */,
+				B9277B3A1ED596D4005631A3 /* EmotionRecentItems.m */,
+				B9277B3B1ED596D4005631A3 /* FLXKEmotionDB.sqlite */,
+				B9277B3C1ED596D4005631A3 /* FLXKEmotionDB副本.sqlite */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		B9277B421ED596F3005631A3 /* ToolKitty */ = {
+			isa = PBXGroup;
+			children = (
+				B9277B4A1ED59B69005631A3 /* FLXKDBHelper.h */,
+				B9277B4B1ED59B69005631A3 /* FLXKDBHelper.m */,
+				B9277B431ED59B69005631A3 /* EntityGenerator */,
+				B9277B4C1ED59B69005631A3 /* FMDB */,
+			);
+			path = ToolKitty;
+			sourceTree = "<group>";
+		};
+		B9277B431ED59B69005631A3 /* EntityGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				B9277B441ED59B69005631A3 /* EntitiesBridge.h */,
+				B9277B451ED59B69005631A3 /* EntityGeneratorViewController.h */,
+				B9277B461ED59B69005631A3 /* EntityGeneratorViewController.m */,
+				B9277B471ED59B69005631A3 /* EntityGeneratorViewController.xib */,
+				B9277B481ED59B69005631A3 /* TestEntity.h */,
+				B9277B491ED59B69005631A3 /* TestEntity.m */,
+			);
+			path = EntityGenerator;
+			sourceTree = "<group>";
+		};
+		B9277B4C1ED59B69005631A3 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				B9277B4D1ED59B69005631A3 /* LICENSE.txt */,
+				B9277B4E1ED59B69005631A3 /* README.markdown */,
+				B9277B4F1ED59B69005631A3 /* src */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		B9277B4F1ED59B69005631A3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B9277B501ED59B69005631A3 /* fmdb */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B9277B501ED59B69005631A3 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				B9277B511ED59B69005631A3 /* FMDatabase.h */,
+				B9277B521ED59B69005631A3 /* FMDatabase.m */,
+				B9277B531ED59B69005631A3 /* FMDatabaseAdditions.h */,
+				B9277B541ED59B69005631A3 /* FMDatabaseAdditions.m */,
+				B9277B551ED59B69005631A3 /* FMDatabasePool.h */,
+				B9277B561ED59B69005631A3 /* FMDatabasePool.m */,
+				B9277B571ED59B69005631A3 /* FMDatabaseQueue.h */,
+				B9277B581ED59B69005631A3 /* FMDatabaseQueue.m */,
+				B9277B591ED59B69005631A3 /* FMDB.h */,
+				B9277B5A1ED59B69005631A3 /* FMResultSet.h */,
+				B9277B5B1ED59B69005631A3 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		B969864C1ED814D800B104C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B969864D1ED814D800B104C6 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9277AF51ED595CC005631A3 /* FLXK_ORM_EntityGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9277B0D1ED595CC005631A3 /* Build configuration list for PBXNativeTarget "FLXK_ORM_EntityGenerator" */;
+			buildPhases = (
+				B9277AF21ED595CC005631A3 /* Sources */,
+				B9277AF31ED595CC005631A3 /* Frameworks */,
+				B9277AF41ED595CC005631A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLXK_ORM_EntityGenerator;
+			productName = FLXK_ORM_EntityGenerator;
+			productReference = B9277AF61ED595CC005631A3 /* FLXK_ORM_EntityGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9277AEE1ED595CB005631A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.flxk;
+				TargetAttributes = {
+					B9277AF51ED595CC005631A3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UMWN7VGEE4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B9277AF11ED595CB005631A3 /* Build configuration list for PBXProject "FLXK_ORM_EntityGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9277AED1ED595CB005631A3;
+			productRefGroup = B9277AF71ED595CC005631A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9277AF51ED595CC005631A3 /* FLXK_ORM_EntityGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9277AF41ED595CC005631A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9277B091ED595CC005631A3 /* LaunchScreen.storyboard in Resources */,
+				B9277B5D1ED59B69005631A3 /* EntityGeneratorViewController.xib in Resources */,
+				B9277B411ED596D4005631A3 /* FLXKEmotionDB副本.sqlite in Resources */,
+				B9277B061ED595CC005631A3 /* Assets.xcassets in Resources */,
+				B9277B401ED596D4005631A3 /* FLXKEmotionDB.sqlite in Resources */,
+				B9277B041ED595CC005631A3 /* Main.storyboard in Resources */,
+				B9277B601ED59B69005631A3 /* LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9277AF21ED595CC005631A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9277B5F1ED59B69005631A3 /* FLXKDBHelper.m in Sources */,
+				B9277B5C1ED59B69005631A3 /* EntityGeneratorViewController.m in Sources */,
+				B9277B641ED59B69005631A3 /* FMDatabasePool.m in Sources */,
+				B9277B651ED59B69005631A3 /* FMDatabaseQueue.m in Sources */,
+				B9277B011ED595CC005631A3 /* ViewController.m in Sources */,
+				B9277B3E1ED596D4005631A3 /* EmotionItem.m in Sources */,
+				B9277B3D1ED596D4005631A3 /* EmotionGroup.m in Sources */,
+				B9277B5E1ED59B69005631A3 /* TestEntity.m in Sources */,
+				B9277B611ED59B69005631A3 /* README.markdown in Sources */,
+				B9277B661ED59B69005631A3 /* FMResultSet.m in Sources */,
+				B9277AFE1ED595CC005631A3 /* AppDelegate.m in Sources */,
+				B9277B3F1ED596D4005631A3 /* EmotionRecentItems.m in Sources */,
+				B9277B621ED59B69005631A3 /* FMDatabase.m in Sources */,
+				B9277AFB1ED595CC005631A3 /* main.m in Sources */,
+				B9277B631ED59B69005631A3 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9277B021ED595CC005631A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9277B031ED595CC005631A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9277B071ED595CC005631A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9277B081ED595CC005631A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9277B0B1ED595CC005631A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9277B0C1ED595CC005631A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9277B0E1ED595CC005631A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UMWN7VGEE4;
+				INFOPLIST_FILE = FLXK_ORM_EntityGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flxk.FLXK-ORM-EntityGenerator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9277B0F1ED595CC005631A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UMWN7VGEE4;
+				INFOPLIST_FILE = FLXK_ORM_EntityGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flxk.FLXK-ORM-EntityGenerator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9277AF11ED595CB005631A3 /* Build configuration list for PBXProject "FLXK_ORM_EntityGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9277B0B1ED595CC005631A3 /* Debug */,
+				B9277B0C1ED595CC005631A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9277B0D1ED595CC005631A3 /* Build configuration list for PBXNativeTarget "FLXK_ORM_EntityGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9277B0E1ED595CC005631A3 /* Debug */,
+				B9277B0F1ED595CC005631A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9277AEE1ED595CB005631A3 /* Project object */;
+}
